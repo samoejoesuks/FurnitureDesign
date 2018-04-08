@@ -54,6 +54,7 @@
     </android.support.design.widget.AppBarLayout>
 
  <!--   <include layout="@layout/content_scrolling" />-->
+        <include layout="@layout/display" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"

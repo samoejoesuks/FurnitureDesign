@@ -8,6 +8,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.content.Intent;
 
 public class ScrollingActivity extends AppCompatActivity {
 
@@ -47,5 +48,12 @@ public class ScrollingActivity extends AppCompatActivity {
             return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    public void onChairsClick(View view){
+        if(view.getId() == R.id.idChairsLabel){
+            Intent i = new Intent(ScrollingActivity.this, DisplayActivity.class);
+            startActivity(i);
+        }
     }
 }

@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:id="@+id/idChairsLabel">
+
+    <TextView
+        android:text="Chairs"
+        android:layout_width="match_parent"
+        android:id="@+id/idChairsLabel"
+        tools:text="Chairs"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textAlignment="center"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:onClick="onChairsClick"
+        tools:onClick="onChairsClick" />
+
+    <TextView
+        android:text="Tables"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/textView4"
+        tools:text="Tables"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textAlignment="center"
+        android:layout_weight="0.05" />
 
 </LinearLayout>
