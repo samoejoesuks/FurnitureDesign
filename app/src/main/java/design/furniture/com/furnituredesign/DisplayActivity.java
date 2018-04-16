@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
@@ -13,12 +14,13 @@ import design.furniture.com.furnituredesign.R;
  * Created by BoonRoom on 4/8/2018.
  */
 
-public class DisplayActivity extends Activity {
+public class DisplayActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.displayitem);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         /*FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -28,5 +30,7 @@ public class DisplayActivity extends Activity {
                         .setAction("Action", null).show();
             }
         });*/
+
+
     }
 }
