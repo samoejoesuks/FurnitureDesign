@@ -56,4 +56,11 @@ public class ScrollingActivity extends AppCompatActivity {
             startActivity(i);
         }
     }
+
+    public void onBackMainBtn(View view){
+        if(view.getId() == R.id.imageButtonBack){
+            Intent i = new Intent(ScrollingActivity.this, ScrollingActivity.class);
+            startActivity(i);
+        }
+    }
 }

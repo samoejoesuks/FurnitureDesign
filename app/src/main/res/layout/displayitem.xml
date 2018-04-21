@@ -1,28 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="List of Chairs"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        tools:text="List of Chairs" />
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="600dp">
 
-    <ImageButton
-        android:id="@+id/imageButtonBack"
-        android:layout_width="91dp"
-        android:layout_height="73dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="32dp"
-        android:layout_marginStart="34dp"
-        android:onClick="onBackMainBtn"
-        app:srcCompat="@android:drawable/btn_dialog" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/list_of_chairs"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            tools:text="List of Chairs" />
 
-</RelativeLayout>
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="352dp"
+            android:layout_height="221dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="69dp"
+            app:srcCompat="@drawable/chair1"
+            android:contentDescription="TODO" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="352dp"
+            android:layout_height="221dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="0dp"
+            app:srcCompat="@drawable/chair2" />
+
+        <ImageButton
+            android:id="@+id/imageButtonBack"
+            android:layout_width="91dp"
+            android:layout_height="73dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="133dp"
+            android:contentDescription="TODO"
+            android:onClick="onBackMainBtn"
+            app:srcCompat="@android:drawable/btn_dialog" />
+
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+
