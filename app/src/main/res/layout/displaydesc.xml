@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/greyChair"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            tools:text="Grey Chair" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="352dp"
+            android:layout_height="221dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="69dp"
+            app:srcCompat="@drawable/chair1"
+            android:contentDescription="@string/chair1" />
+
+        <TextView
+            android:id="@+id/textViewDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="26dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="300dp"
+            android:text="@string/greyChairDesc"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            tools:text="Grey Chair" />
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+

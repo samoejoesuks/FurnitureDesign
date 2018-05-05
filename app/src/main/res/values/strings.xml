@@ -93,4 +93,8 @@
     <string name="list_of_chairs">List of Chairs</string>
     <string name="chair1">chair1</string>
     <string name="chair2">chair2</string>
+    <string name="chairs">Chairs</string>
+    <string name="tables">Tables</string>
+    <string name="greyChair">Grey Chair</string>
+    <string name="greyChairDesc">Grey Chair \nVery comfortable \nSpecial Design \nPrice: RM 50</string>
 </resources>
